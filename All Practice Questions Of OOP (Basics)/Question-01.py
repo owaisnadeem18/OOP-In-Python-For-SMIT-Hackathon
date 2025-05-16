@@ -9,7 +9,7 @@ class Student():
     def student_Details(self):
         print(f"The name of the student is '{self.name}' bearing the roll # '{self.id}' from dept. '{self.dept}'")
 
-student1 = Student(983 , "Owais Nadem" , "BSCS")
+student_1 = Student(983 , "Owais Nadem" , "BSCS")
 student2 = Student( 4334,"Wifey aka Rabia Owais" , "Baatain banana or baatain sunana")
 
 student1.student_Details()
