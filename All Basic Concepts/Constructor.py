@@ -17,9 +17,7 @@ class Student:
         print("I am a constructor , I will run immediately at the time of running the code once the object will get created (either the function called by the object or not")
 
     def showDetails(self): 
-        print(f'''
-            The cgpa of student is {self.cgpa} from the department {self.department} in the field of {self.field}
-        ''')
+        print(f'''The cgpa of student is {self.cgpa} from the department {self.department} in the field of {self.field}''')
 
     @staticmethod
     def GoodMorning():
